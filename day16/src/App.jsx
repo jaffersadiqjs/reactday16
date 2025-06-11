@@ -6,14 +6,14 @@ import {
   Navigate,
 } from 'react-router-dom';
 
-import Home from './components/Home';
-import About from './components/About';
-import Team from './components/Team';
-import Company from './components/Company';
-import NotFound from './components/NotFound';
-import Protected from './components/Protected';
-import Navbar from './components/Navbar';
-import GoToAboutButton from './components/GoToAboutButton';
+import Home from './Components/Home';
+import About from './Components/About';
+import Team from './Components/Team';
+import Company from './Components/Company';
+import NotFound from './Components/NotFound';
+import Protected from './Components/Protected';
+import Navbar from './Components/Navbar';
+import GoToAboutButton from './Components/GoToAboutButton';
 
 const App = () => {
   const isLoggedIn = false;
